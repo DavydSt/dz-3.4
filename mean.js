@@ -37,7 +37,7 @@ if (text.includes("JavaScript")) {
 
 const number = 13;
 
-if (10 < number > 20) {
+if (number > 10 && number < 20) {
     console.log("число входить в діапазон від 10 до 20");
 } else {
     console.log("число не входить в діапазон від 10 до 20");
